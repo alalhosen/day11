@@ -21,11 +21,18 @@ main {
 }
 
 #nav-plane {
-    margin-top: 10px;
+    margin-top: 6px;
+}
+
+.r {
+    font-size: 2.8rem;
+    color: darkolivegreen;
 }
 
 .nav-tittle {
+    margin-top: 0.5px;
     margin-left: 20px;
+    font-size: 1.9rem;
 }
 
 .nav-tittle-travel {
@@ -39,7 +46,7 @@ nav a {
 }
 
 .nav-anchor {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #nav-home {
@@ -71,36 +78,53 @@ nav a:hover {
     font-size: 3rem;
 }
 
-.explore-discription,
-.explore-tittle {
-    color: rgb(255, 255, 255);
-
+.explore-tittle,
+.explore-discription {
+    color: whitesmoke;
 }
 
 .explore-discription {
     padding: 0rem 15rem 2rem 15rem;
 }
 
-.explore-input {
+/* .explore-input {
     color: rgba(19, 19, 24, 0.5);
-    /* background-color: white; */
-    margin-left: 30px;
-}
+    justify-content: center;
+    display: flex;
+    background-color:antiquewhite;
+    opacity: 0.6;
+    margin: 0px 150px;
+} */
 
-.explore-input input,
-.btn-find {
+/* .explore-all-content input {
+    margin-right: 3rem;
     margin-right: 30px;
+    height: 2rem;
+    width: 3rem;
+} */
+.explore-input button {
+    color: gray;
+    margin-right: 40px;
     border-radius: 6px;
-    padding-left: 10px;
     height: 3rem;
     width: 10rem;
-    gap: 50px;
     font-size: 1rem;
     border: none;
 }
 
-.btn-find {
-    font-size: 1rem;
+button:hover {
+    background-color: burlywood;
+    color: white;
+}
+
+#btn-find {
+    /* font-size: 1rem; */
     color: white;
     background-color: rgb(255, 84, 0);
+}
+
+#btn-find:hover {
+    background-color: aqua;
+    color: black;
+
 }
