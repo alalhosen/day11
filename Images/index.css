@@ -1,0 +1,106 @@
+body {
+    width: 1440px;
+}
+
+main {
+    margin: 1.5rem;
+}
+
+/* nav style */
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 220px 10px 15px;
+}
+
+.nav-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav-plane {
+    margin-top: 10px;
+}
+
+.nav-tittle {
+    margin-left: 20px;
+}
+
+.nav-tittle-travel {
+    color: rgb(239, 66, 66);
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+.nav-anchor {
+    margin-top: 20px;
+}
+
+#nav-home {
+    color: orangered;
+}
+
+nav a:hover {
+    background-color: aqua;
+    color: white;
+    padding: 5px;
+    transition: 1s;
+}
+
+/* Explore section */
+
+.explore-container {
+    width: 1170px;
+    height: 500px;
+    text-align: center;
+    background-image: url(Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 10px;
+}
+
+.explore-all-content {
+    padding-top: 80px;
+}
+
+.explore-tittle {
+    font-size: 3rem;
+}
+
+.explore-discription,
+.explore-tittle {
+    color: rgb(255, 255, 255);
+
+}
+
+.explore-discription {
+    padding: 0rem 15rem 2rem 15rem;
+}
+
+.explore-input {
+    color: rgba(19, 19, 24, 0.5);
+    /* background-color: white; */
+    margin-left: 30px;
+}
+
+.explore-input input,
+.btn-find {
+    margin-right: 30px;
+    border-radius: 6px;
+    padding-left: 10px;
+    height: 3rem;
+    width: 10rem;
+    gap: 50px;
+    font-size: 1rem;
+    border: none;
+}
+
+.btn-find {
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(255, 84, 0);
+}
