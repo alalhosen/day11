@@ -76,6 +76,7 @@ nav a:hover {
 
 .explore-tittle {
     font-size: 3rem;
+    font-weight: bolder;
 }
 
 .explore-tittle,
@@ -88,7 +89,8 @@ nav a:hover {
 }
 
 
-.explore-input button, .read{
+.explore-input button,
+.read {
     color: gray;
     margin-right: 40px;
     border-radius: 6px;
@@ -97,23 +99,29 @@ nav a:hover {
     font-size: 1rem;
     border: none;
 }
+
 /* .when{
     padding-right: 20px;
     margin-right: 60px;
 } */
-#when-aro{
+#when-aro {
     margin-left: 2.5rem;
 }
-#selete-aro{
+
+#selete-aro {
     margin-left: 2.5rem;
 }
+
 button:hover {
     background-color: burlywood;
     color: white;
 }
 
-#btn-find, .read{
-    /* font-size: 1rem; */
+#btn-find,
+.read,
+.btn-book,
+.btn-see{
+
     color: white;
     background-color: rgb(255, 84, 0);
 }
@@ -125,72 +133,179 @@ button:hover {
 
 /* popular section style */
 
-.popular-container{
+.popular-container {
     padding: 4rem 14rem 1rem 1.5rem;
 }
-.popular-all-contant{
+
+.popular-all-contant {
     display: flex;
-    
+
 }
-.popular-left-contant{
+
+.popular-left-contant {
     padding-right: 6rem;
     padding-top: .5rem;
 }
-.popular-tittle{
+
+.popular-tittle {
     font-size: 3rem;
 }
+
 .popular-contant,
-.description{
-    color:rgb(90, 90, 93);
+.description {
+    color: rgb(90, 90, 93);
     padding-right: 5rem;
 }
-.popular-there-t{
+
+.popular-there-t {
     font-size: 2rem;
 }
-#popular-img:hover{
-background-color: aquamarine;
-opacity: .7;
+
+#popular-img:hover {
+    background-color: aquamarine;
+    opacity: .7;
 }
 
-/* Choose Your Destination Section */
+/* Choose Your Destination Section style*/
 
-.choose-contant{
+.choose-contant {
     text-align: center;
     padding-right: 24rem;
     padding-left: 18rem;
 }
-.choose-tittle{
+
+.choose-tittle,
+.deals-tittle {
     font-size: 3rem;
-    padding-right:6rem;
+    padding-right: 6rem;
 }
+
 .choose-img-box img {
-padding: .4rem;
+    padding: .4rem;
 }
 
 /* why Choose Us section style */
 
-.why-head{
+.why-head {
     text-align: center;
     padding-right: 35rem;
     padding-left: 20rem;
+    margin-top: 3rem;
 }
+
+.why-tittle {
+    font-size: 3rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#img-icon {
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem;
+}
+
 .why-Handpicked,
 .why-world,
-.why-best{
-    border: 2px solid aquamarine;
-    width: 35rem;
-    height: 17rem;
+.why-best {
+
+    width: 30rem;
+    height: 15rem;
+    padding: 1rem 3rem 1rem 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
 
 }
-.why-Handpicked{
-    background-color:rgb(243, 243, 239)
+
+.why-Handpicked {
+    border: 2px solid rgb(242, 228, 209);
+    background-color: rgb(243, 243, 239)
 }
-.why-world{
-background-color:aliceblue;
+
+.why-world {
+    border: 2px solid rgb(198, 242, 227);
+    background-color: aliceblue;
+    opacity: .7;
 }
-.why-best{
-    background-color:rgb(238, 233, 226)
+
+.why-best {
+    border: 2px solid rgb(234, 215, 188);
+    background-color: rgb(238, 233, 226);
+    margin-left: 19rem;
+    border-radius: 1rem 5rem;
 }
-.why-two-content{
+
+.why-two-content {
     display: flex;
+}
+
+.why-three-box-container {
+    padding: 2rem;
+ 
+}
+
+/* deals & discount section style */
+
+.deals-head-container {
+    text-align: center;
+    padding: 0 25rem;
+}
+.deals-tittle{
+
+}
+.img-box-border{
+  border: 2px solid tomato;
+    width: 30rem;
+    height: 20rem; 
+    border-radius: 15px;
+    padding: 3rem; 
+    background-color:rgba(249, 245, 245, 0.817);
+    border: none;
+}
+.img-icon-content {
+    display: flex;
+}
+.deals-img-main-box1{
+    background-image: url(Group\ 39.png);
+   background-repeat: no-repeat;
+    padding: 3% 3% 3% 37%;
+    margin-top: 2rem;
+}
+.deals-img-main-box2{
+    background-image: url(Group\ 40.png);
+    background-repeat: no-repeat;
+    padding: 3% 37% 3% 3%;
+    margin-top: 2rem;
+}
+/* .deals-img-main-box2{
+   background-image: url(Group\ 40.png); 
+   background-repeat: no-repeat;
+   padding: 37% 5% 5% 5% ;
+} */
+
+#img-icon-box {
+    width: 3%;
+    height: 3%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+   
+}
+.btn-book{
+    width: 9rem;
+    height: 3.25rem;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+.btn-see{
+width: 11rem;
+height: 3rem;
+border: none;
+font-weight: bolder;
+font-size: 1.2rem;
+border-radius: 5px;
+margin-top: 2rem;
+margin-left: 30rem;
 }
