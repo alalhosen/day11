@@ -1,9 +1,12 @@
 body {
+    border: 4px solid lime;
     width: 1440px;
+    margin: auto;
+    border: none;
 }
 
 main {
-    margin: 1.5rem;
+    margin: 1.5rem 2rem;
 }
 
 /* nav style */
@@ -60,7 +63,7 @@ nav a:hover {
     transition: 1s;
 }
 
-/* Explore section */
+/* Explore section style*/
 
 .explore-container {
     width: 1170px;
@@ -100,10 +103,7 @@ nav a:hover {
     border: none;
 }
 
-/* .when{
-    padding-right: 20px;
-    margin-right: 60px;
-} */
+
 #when-aro {
     margin-left: 2.5rem;
 }
@@ -153,7 +153,9 @@ button:hover {
 }
 
 .popular-contant,
-.description {
+.description,
+.newsletter-description,
+.footer-description {
     color: rgb(90, 90, 93);
     padding-right: 5rem;
 }
@@ -185,7 +187,52 @@ button:hover {
 .choose-img-box img {
     padding: .4rem;
 }
-
+/* dddddddddddddhkkkkkkkkkkkkkkkkkkkkkk */
+.chooes-img-one{
+    display: flex;
+}
+.chooes-img-two{
+    display: flex;
+}
+.chooes-img-three{
+    display: flex;
+}
+#maldives,
+#indonesia{
+  left: 230px;
+    bottom: 195px;    
+}
+#srilanka{
+    left: 140px;
+    bottom: 195px;  
+}
+#north-america{
+    left: 140px;
+    bottom: 195px;  
+}
+#kashmir{
+    left: 90px;
+    bottom: 195px;
+}
+#bangladesh{
+    left: 140px;
+    bottom: 200px;
+}
+#bandarban{
+    left: 270px;
+    bottom: 200px;  
+}
+.choose-center-text-box{
+    position: relative;
+    /* left: 230px;
+    bottom: 195px;  */
+}
+.choose-center-text{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+/* dddddddddkkkkkkkkkkkkkkkkklllllllllll */
 /* why Choose Us section style */
 
 .why-head {
@@ -274,7 +321,7 @@ button:hover {
 .deals-img-main-box1 {
     background-image: url(Group\ 39.png);
     background-repeat: no-repeat;
-    padding: 3% 3% 3% 37%;
+    padding: 3% 1% 3% 37%;
     margin-top: 2rem;
 }
 
@@ -342,16 +389,16 @@ button:hover {
 
 .newsletter-container {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .newsletter-content {
     border: 2px solid orangered;
-    width: 25rem;
+    width: 24rem;
     height: 20rem;
     padding: 3rem;
     border-radius: 10px;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .newsletter-tittle {
@@ -373,25 +420,84 @@ button:hover {
     background-color: rgb(237, 234, 231);
 }
 
-/* .newsletter-travel,
-.newsletter-save{
-    color: white;
-
-} */
 .newsletter-travel {
     margin-top: 10px;
     font-size: 1.5rem;
-    }
+    color: white;
+}
 
 .newsletter-save {
     font-size: 2rem;
+    color: white;
+    font-weight: bolder;
 }
 
 .newsletter-over-content-img {
     background-color: rgb(241, 103, 33);
     width: 20rem;
     height: 8rem;
-    border-radius: 10px;
+    border-radius: 12px;
     text-align: center;
+    position: relative;
+    left: 340px;
+    bottom: 195px;
+    rotate: -20deg;
+}
 
+/* footer section style */
+
+.footer-border {
+    border: 2px solid blueviolet;
+    width: 65rem;
+    height: 30rem;
+    background-color: rgb(237, 240, 240);
+    margin-top: -4rem;
+    padding-left: 16rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.border {
+    border: 2px solid lime;
+    width: 36rem;
+    height: 24rem;
+    text-align: center;
+    padding: 3rem;
+    border: none;
+}
+
+#footer-plane {
+    padding-top: 1.2rem;
+    padding-left: 8rem;
+
+}
+
+.footer-tittle-img {
+    display: flex;
+}
+
+.footer-tittle {
+    padding-left: 1rem;
+}
+
+.footer-description {
+    padding-left: 2rem;
+}
+.footer-all-icon{
+    padding: 10px;
+padding-left: 13rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+}
+#footer-icon{
+padding: .5rem;
+}
+.footer-end{
+    padding-top: 1rem;
+}
+#footer-icon:hover{
+    /* color:aquamarine ; */
+    background-color: aquamarine;
+    transform: translate(10px);
 }
