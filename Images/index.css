@@ -187,7 +187,6 @@ button:hover {
 .choose-img-box img {
     padding: .4rem;
 }
-/* dddddddddddddhkkkkkkkkkkkkkkkkkkkkkk */
 .chooes-img-one{
     display: flex;
 }
@@ -200,7 +199,7 @@ button:hover {
 #maldives,
 #indonesia{
   left: 230px;
-    bottom: 195px;    
+    bottom: 245px;    
 }
 #srilanka{
     left: 140px;
@@ -224,15 +223,12 @@ button:hover {
 }
 .choose-center-text-box{
     position: relative;
-    /* left: 230px;
-    bottom: 195px;  */
 }
 .choose-center-text{
     font-size: 2rem;
     font-weight: bolder;
     color: white;
 }
-/* dddddddddkkkkkkkkkkkkkkkkklllllllllll */
 /* why Choose Us section style */
 
 .why-head {
@@ -503,15 +499,6 @@ padding: .5rem;
     padding-top: 1rem;
 }
 #footer-icon:hover{
-    /* color:aquamarine ; */
     background-color: aquamarine;
     transform: translate(10px);
-}
-/* aaaaaaaaaaaaaaaaaaaaaaaa */
-.choose-img-box img{
-    width: 100%;
-    height: 100%;
-}
-#north-america{
-    left: 30px;
 }
