@@ -1,6 +1,6 @@
 body {
     border: 4px solid lime;
-    width: 1440px;
+   max-width: 1440px;
     margin: auto;
     border: none;
 }
@@ -103,7 +103,13 @@ nav a:hover {
     border: none;
 }
 
-
+.explore-input{
+    background-color: rgba(240, 233, 233, 0.594);
+margin: 0 160 0 160px;
+padding: 15px 0;
+/* height: 5rem; */
+    
+}
 #when-aro {
     margin-left: 2.5rem;
 }
@@ -189,6 +195,10 @@ button:hover {
 }
 .chooes-img-one{
     display: flex;
+}
+.choose-malsives-img1{
+    width: 570px;
+    height: 300px;
 }
 .chooes-img-two{
     display: flex;
@@ -501,4 +511,36 @@ padding: .5rem;
 #footer-icon:hover{
     background-color: aquamarine;
     transform: translate(10px);
+}
+
+/* media quary mobile device */
+
+@media screen and (max-width:600px) {
+   
+    .explore-input{
+    display: grid;    
+ justify-content: center;
+    } 
+    .explore-container {
+        /* width: 1170px; */
+        height: 500px;
+        text-align: center;
+        background-image: url(Group\ 13\ \(1\)\ \(1\).png);
+        border-radius: 10px;}
+.popular-all-contant{
+    display: grid;
+}
+
+
+.chooes-img-one{
+    display: grid;
+}
+.chooes-img-two{
+    display: grid;
+}
+.chooes-img-three{
+    /* display: grid; */
+    flex-direction: column;
+}
+
 }
