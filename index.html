@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="Images/index.css">
     <script src="https://kit.fontawesome.com/4977e74b9b.js" crossorigin="anonymous"></script>
-
+    <script src="https://kit.fontawesome.com/4977e74b9b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -24,14 +24,16 @@
                     </div>
                 </div>
                 <div class="nav-anchor">
+                    <input id="check" type="checkbox">
+                    <label class="checkbtn" for="check"><i class="fa-solid fa-bars"></i> </label>
                     <ul>
                         <li>
                             <a id="nav-home" href="">Home</a>
-                            <a href="">Packages</a>
-                            <a href="">Testimonial</a>
-                            <a href="">Blog</a>
-                            <a href="">Contact</a>
                         </li>
+                        <li><a href="">Packages</a></li>
+                        <li><a href="">Testimonial</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -48,8 +50,8 @@
                     </div>
                     <div class="explore-input">
                         <button>Where go</button>
-                        <button class="when">When <i id="when-aro" class="fa-solid fa-angle-down"></i></button>
-                        <button>Select Type<i id="selete-aro" class="fa-solid fa-angle-down"></i></button>
+                        <button class="when">When <i id="when-aro-btn" class="fa-solid fa-angle-down"></i></button>
+                        <button>Select Type<i id="when-aro-btn" class="fa-solid fa-angle-down"></i></button>
                         <button id="btn-find"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
                     </div>
 
@@ -65,15 +67,15 @@
                     <h2 class="popular-tittle">Our Popular Tours</h2>
                     <p class="popular-contant">
                         <span class="popular-there-t">T</span>here are good facilities for traveling in a pleasant
-                        environment.If you want to go on a trip, fill in the options below.
-                    <ul>
+                        environment.If you want to go on a trip, fill in the options. <br><br>
+                    <div class="popular-list">
                         <li>
                             Select the place where you want to go.Decide when you will go with him.
                         </li><br>
                         <li>Our authorities are fully responsible for your travel.They will take you safely and you will
                             come.</li><br>
                         <li>Our authorities will make complete arrangements for your travel and meals.</li><br>
-                    </ul>
+                    </div>
                     Knowing everything, you will also apply for travel.The most information for travel enthusiasts will
                     be
                     communicated through emuls.
@@ -85,6 +87,7 @@
                 </div>
             </div>
         </section>
+
         <!-- Choose Your Destination Section -->
         <section class="choose-section">
             <div class="choose-contant">
@@ -95,14 +98,15 @@
             <div class="choose-img-box">
                 <div class="chooes-img-one">
                     <div>
-                        <img class="choose-malsives-img1" id="choose-maldives-img" src="Images/Rectangle 5.png" alt="">
+                        <img class="choose-malsives-img1" id="choose-maldives-img media-width-height"
+                            src="Images/Rectangle 5.png" alt="">
                         <div id="maldives" class="choose-center-text-box">
                             <h2 class="choose-center-text">Maldives</h2>
                         </div>
                     </div>
-                    <div>
-                        <img class="choose-malsives-img1" id="choose-maldives-img" src="Images/Rectangle 8 (1).png"
-                            alt="">
+                    <div class="choose-malsives-img-box">
+                        <img class="choose-malsives-img1" id="choose-maldives-img media-width-height"
+                            src="Images/Rectangle 8 (1).png" alt="">
                         <div id="indonesia" class="choose-center-text-box">
                             <h2 class="choose-center-text">Indonesia</h2>
                         </div>
@@ -110,19 +114,19 @@
                 </div>
                 <div class="chooes-img-two">
                     <div>
-                        <img src="Images/Rectangle 6.png" alt="">
+                        <img id="media-width-height" src="Images/Rectangle 6.png" alt="">
                         <div id="srilanka" class="choose-center-text-box">
                             <h2 class="choose-center-text">Srilanka</h2>
                         </div>
                     </div>
-                    <div>
-                        <img src="Images/Rectangle 7.png" alt="">
+                    <div class="choose-malsives-img-box">
+                        <img id="media-width-height" src="Images/Rectangle 7.png" alt="">
                         <div id="north-america" class="choose-center-text-box">
                             <h2 class="choose-center-text">North America</h2>
                         </div>
                     </div>
-                    <div>
-                        <img src="Images/Rectangle 9.png" alt="">
+                    <div class="choose-malsives-img-box">
+                        <img id="media-width-height" src="Images/Rectangle 9.png" alt="">
                         <div id="kashmir" class="choose-center-text-box">
                             <h2 class="choose-center-text">kashmir</h2>
                         </div>
@@ -130,13 +134,13 @@
                 </div>
                 <div class="chooes-img-three">
                     <div>
-                        <img src="Images/Rectangle 11.png" alt="">
+                        <img id="media-width-height" src="Images/Rectangle 11.png" alt="">
                         <div id="bangladesh" class="choose-center-text-box">
                             <h2 class="choose-center-text">Bangladesh</h2>
                         </div>
                     </div>
-                    <div>
-                        <img src="Images/Rectangle 10.png" alt="">
+                    <div class="choose-malsives-img-box">
+                        <img id="media-width-height" src="Images/Rectangle 10.png" alt="">
                         <div id="bandarban" class="choose-center-text-box">
                             <h2 class="choose-center-text">Bandarban</h2>
                         </div>
@@ -146,8 +150,9 @@
                 </div>
             </div>
         </section>
+
         <!-- why Choose Us section -->
-        <section>
+        <section class="why-Choose-contain">
             <div class="why-head">
                 <h2 class="why-tittle">Why Choose Us</h2>
                 <p class="why-description">Detailed information is given on why you should choose us.Travel with us to
@@ -178,11 +183,13 @@
                 </div>
             </div>
         </section>
+
         <!-- Deals & Disconts section -->
         <section class="deals-container">
             <div class="deals-head-container">
                 <h2 class="deals-tittle">Deals & Discounts</h2>
-                <p class="deals-description">We have tons of discounts here for travel.Avail our best offer by selecting
+                <p class="deals-description">We have tons of discounts here for travel.Avail our best offer by <br>
+                    selecting
                     your preferred location.</p>
             </div>
             <div class="deals-img-main-box1">
@@ -244,6 +251,7 @@
             </div>
             <button class="btn-see">See All Packages</button>
         </section>
+
         <!-- A Simple Perfect Place -->
         <section>
             <div class="simple-container">
@@ -252,11 +260,11 @@
                     <p class="simple-description">It's easy to get lost and find a place with perfect and beautiful
                         surroundings.If you want to get lost in those places, you have to go.
                         <br>
-                    <ul class="simple-ul">
+                    <div class="simple-ul">
                         <li>We bring you an easy way to get lost in the beautiful surroundings.</li><br>
                         <li>You must go there if you want to get lost in that lovely environment with your loved one
                         </li><br>
-                    </ul>
+                    </div>
                     </p>
                     <button class="simple-btn-see">See More</button>
                 </div>
@@ -265,6 +273,7 @@
                 </div>
             </div>
         </section>
+
         <!-- Newsletter section -->
         <section>
             <div class="newsletter-container">
@@ -286,6 +295,7 @@
             </div>
         </section>
     </main>
+    
     <!-- Footer section -->
     <footer>
         <div class="footer-border">
@@ -298,7 +308,7 @@
                     </div>
                 </div>
                 <p class="footer-description">Below is the link to contact us.Those of you who want to travel can
-                    contact us with your preferred link.Thank you so much for being with us for so long.</p>
+                    contact us with your preferred link. <br> Thank you so much for being with us for so long.</p>
                 <div class="footer-all-icon">
                     <img id="footer-icon" src="Images/birds.png" alt="">
                     <img id="footer-icon" src="Images/fackbook.png" alt="">

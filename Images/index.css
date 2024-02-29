@@ -1,55 +1,39 @@
-body {
-    border: 4px solid lime;
-   max-width: 1440px;
-    margin: auto;
-    border: none;
-}
-
-main {
-    margin: 1.5rem 2rem;
-}
-
-/* nav style */
-
-
+/* nav section style */
 .nav-container {
     display: flex;
     justify-content: space-between;
-    padding: 10px 220px 10px 15px;
+    padding: 10px;
 }
 
 .nav-img {
     display: flex;
-    justify-content: space-around;
+    margin-top: -9px;
 }
 
 #nav-plane {
-    margin-top: 6px;
+    margin-top: 15px;
+    margin-right: 10px;
 }
 
 .r {
-    font-size: 2.8rem;
+    font-size: 2rem;
     color: darkolivegreen;
-}
-
-.nav-tittle {
-    margin-top: 0.5px;
-    margin-left: 20px;
-    font-size: 1.9rem;
 }
 
 .nav-tittle-travel {
     color: rgb(239, 66, 66);
 }
 
-nav a {
-    text-decoration: none;
-    margin-right: 20px;
-    justify-content: space-between;
+nav ul li {
+    display: inline-block;
+    line-height: 30px;
 }
 
-.nav-anchor {
-    margin-top: 30px;
+nav ul li a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 20px;
 }
 
 #nav-home {
@@ -61,25 +45,40 @@ nav a:hover {
     color: white;
     padding: 5px;
     transition: 1s;
+    border-radius: 7px;
+}
+
+.checkbtn {
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
 }
 
 /* Explore section style*/
 
 .explore-container {
-    width: 1170px;
     height: 500px;
     text-align: center;
     background-image: url(Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
     border-radius: 10px;
 }
 
 .explore-all-content {
-    padding-top: 80px;
+
+    padding: 70px 180px;
 }
 
 .explore-tittle {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bolder;
+    margin-bottom: 10px;
 }
 
 .explore-tittle,
@@ -88,14 +87,15 @@ nav a:hover {
 }
 
 .explore-discription {
-    padding: 0rem 15rem 2rem 15rem;
+    margin: 30px 0px;
+    padding: 0px 180px;
 }
-
 
 .explore-input button,
 .read {
     color: gray;
-    margin-right: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
     border-radius: 6px;
     height: 3rem;
     width: 10rem;
@@ -103,19 +103,14 @@ nav a:hover {
     border: none;
 }
 
-.explore-input{
-    background-color: rgba(240, 233, 233, 0.594);
-margin: 0 160 0 160px;
-padding: 15px 0;
-/* height: 5rem; */
-    
-}
-#when-aro {
-    margin-left: 2.5rem;
+.explore-input {
+    background-color: #f8f5f549;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-#selete-aro {
-    margin-left: 2.5rem;
+#when-aro-btn {
+    float: right;
 }
 
 button:hover {
@@ -141,7 +136,7 @@ button:hover {
 /* popular section style */
 
 .popular-container {
-    padding: 4rem 14rem 1rem 1.5rem;
+    margin-top: 4rem;
 }
 
 .popular-all-contant {
@@ -150,12 +145,16 @@ button:hover {
 }
 
 .popular-left-contant {
-    padding-right: 6rem;
-    padding-top: .5rem;
+    margin-right: 50px;
+    padding: 2rem;
 }
 
 .popular-tittle {
     font-size: 3rem;
+}
+
+.popular-list {
+    padding-left: 2rem;
 }
 
 .popular-contant,
@@ -179,73 +178,94 @@ button:hover {
 
 .choose-contant {
     text-align: center;
-    padding-right: 24rem;
-    padding-left: 18rem;
 }
 
 .choose-tittle,
 .deals-tittle,
 .simple-tittle {
     font-size: 3rem;
-    padding-right: 6rem;
+}
+
+.description {
+    text-align: center;
+    padding: 0 200px;
 }
 
 .choose-img-box img {
     padding: .4rem;
 }
-.chooes-img-one{
+
+.chooes-img-one,
+.chooes-img-two,
+.chooes-img-three {
     display: flex;
 }
-.choose-malsives-img1{
+
+.chooes-img-two,
+.chooes-img-three {
+    margin-top: -90px;
+
+}
+
+.choose-malsives-img1 {
     width: 570px;
     height: 300px;
 }
-.chooes-img-two{
-    display: flex;
-}
-.chooes-img-three{
-    display: flex;
-}
+
 #maldives,
-#indonesia{
-  left: 230px;
-    bottom: 245px;    
+#indonesia {
+    left: 230px;
+    bottom: 215px;
 }
-#srilanka{
-    left: 140px;
-    bottom: 195px;  
-}
-#north-america{
-    left: 140px;
-    bottom: 195px;  
-}
-#kashmir{
-    left: 90px;
-    bottom: 195px;
-}
-#bangladesh{
+
+#srilanka {
     left: 140px;
     bottom: 200px;
 }
-#bandarban{
-    left: 270px;
-    bottom: 200px;  
+
+#north-america {
+    left: 140px;
+    bottom: 195px;
 }
-.choose-center-text-box{
+
+#kashmir {
+    left: 90px;
+    bottom: 195px;
+}
+
+#bangladesh {
+    left: 140px;
+    bottom: 200px;
+}
+
+#bandarban {
+    left: 270px;
+    bottom: 200px;
+}
+
+.choose-center-text-box {
     position: relative;
 }
-.choose-center-text{
+
+.choose-center-text {
     font-size: 2rem;
     font-weight: bolder;
     color: white;
 }
+
 /* why Choose Us section style */
+
+.why-Choose-container {
+    margin-top: -50px;
+}
 
 .why-head {
     text-align: center;
-    padding-right: 35rem;
-    padding-left: 20rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
+}
+
+.why-description {
+    padding: 0 15rem;
 }
 
 .why-tittle {
@@ -263,9 +283,7 @@ button:hover {
 .why-Handpicked,
 .why-world,
 .why-best {
-
     width: 30rem;
-    height: 15rem;
     padding: 1rem 3rem 1rem 2rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
@@ -280,35 +298,30 @@ button:hover {
 
 .why-world {
     border: 2px solid rgb(198, 242, 227);
-    background-color: aliceblue;
+    background-color: rgb(255, 240, 251);
     opacity: .7;
 }
 
 .why-best {
     border: 2px solid rgb(234, 215, 188);
     background-color: rgb(238, 233, 226);
-    margin-left: 19rem;
     border-radius: 1rem 5rem;
+    margin: auto;
 }
 
 .why-two-content {
     display: flex;
 }
 
-.why-three-box-container {
-    padding: 2rem;
-
-}
-
 /* deals & discount section style */
+
+.deals-container {
+    margin-top: 5rem;
+}
 
 .deals-head-container {
     text-align: center;
-    padding-right: 36rem;
-    padding-left: 19rem;
 }
-
-.deals-tittle {}
 
 .img-box-border {
     border: 2px solid tomato;
@@ -327,8 +340,10 @@ button:hover {
 .deals-img-main-box1 {
     background-image: url(Group\ 39.png);
     background-repeat: no-repeat;
-    padding: 3% 1% 3% 37%;
+    padding: 3% 3% 3% 46%;
     margin-top: 2rem;
+    margin-right: 2rem;
+    border-radius: 20px;
 }
 
 .deals-img-main-box2 {
@@ -336,6 +351,7 @@ button:hover {
     background-repeat: no-repeat;
     padding: 3% 37% 3% 3%;
     margin-top: 2rem;
+    border-radius: 20px;
 }
 
 #img-icon-box {
@@ -372,12 +388,12 @@ button:hover {
 .simple-container {
     display: flex;
     padding: 1rem;
-    margin-right: 12rem;
-    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-top: .5rem;
 }
 
 .simple-content {
-    padding-right: 4rem;
+    padding-right: 2rem;
     margin-top: 4rem;
 }
 
@@ -389,6 +405,12 @@ button:hover {
 .simple-ul {
     font-weight: bolder;
     padding-right: 1rem;
+    margin-left: 10px;
+}
+
+.simple-vedio {
+    margin-top: 10px;
+    padding-left: 50px;
 }
 
 /* Newsletter section style */
@@ -413,7 +435,7 @@ button:hover {
 
 .Subscribe-btn,
 .newsletter-enter-your {
-    width: 17rem;
+    width: 100%;
     height: 3rem;
     font-size: 1.2rem;
     border: none;
@@ -460,87 +482,266 @@ button:hover {
 
 .footer-border {
     border: 2px solid blueviolet;
-    width: 65rem;
+    width: 73rem;
     height: 30rem;
     background-color: rgb(237, 240, 240);
     margin-top: -4rem;
-    padding-left: 16rem;
     border-radius: 10px;
     border: none;
 }
 
 .border {
-    border: 2px solid lime;
-    width: 36rem;
-    height: 24rem;
     text-align: center;
-    padding: 3rem;
     border: none;
 }
 
 #footer-plane {
     padding-top: 1.2rem;
-    padding-left: 8rem;
+    text-align: center;
 
 }
 
 .footer-tittle-img {
+    padding-top: 4rem;
+    margin-bottom: 2rem;
     display: flex;
+    justify-content: center;
 }
 
-.footer-tittle {
-    padding-left: 1rem;
-}
-
-.footer-description {
-    padding-left: 2rem;
-}
-.footer-all-icon{
-    padding: 10px;
-padding-left: 13rem;
+.footer-all-icon {
     width: 2rem;
     height: 2rem;
+    margin: 2rem;
+    padding-left: 30rem;
     display: flex;
 }
-#footer-icon{
-padding: .5rem;
+
+#footer-icon {
+    padding: .5rem;
 }
-.footer-end{
-    padding-top: 1rem;
+
+.footer-end {
+    padding-top: 1.5rem;
 }
-#footer-icon:hover{
+
+#footer-icon:hover {
     background-color: aquamarine;
     transform: translate(10px);
 }
 
-/* media quary mobile device */
+/* media quary mobile device start*/
 
 @media screen and (max-width:600px) {
-   
-    .explore-input{
-    display: grid;    
- justify-content: center;
-    } 
-    .explore-container {
-        /* width: 1170px; */
-        height: 500px;
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 42%;
+        height: 100vh;
+        top: 80px;
+        left: -120%;
         text-align: center;
-        background-image: url(Group\ 13\ \(1\)\ \(1\).png);
-        border-radius: 10px;}
-.popular-all-contant{
-    display: grid;
-}
+        transition: all .5s;
+        background-color: beige;
+    }
 
+    nav ul li {
+        display: block;
+        margin: 5px;
+    }
 
-.chooes-img-one{
-    display: grid;
-}
-.chooes-img-two{
-    display: grid;
-}
-.chooes-img-three{
-    /* display: grid; */
-    flex-direction: column;
-}
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .explore-all-content {
+        padding: 20px;
+
+        margin: 0px;
+    }
+
+    .explore-container {
+        height: fit-content;
+    }
+
+    .explore-container {
+        height: 600px;
+        width: auto;
+    }
+
+    .explore-tittle,
+    .explore-discription {
+        color: grey;
+    }
+
+    .explore-tittle {
+        font-size: 2rem;
+    }
+
+    .explore-discription {
+        margin: 0px;
+        padding: 40px;
+
+    }
+
+    .explore-input button,
+    .read {
+
+        margin-bottom: 15px;
+
+        border-radius: 6px;
+        font-size: 20px;
+        width: 20rem;
+    }
+
+    .description {
+        text-align: center;
+        padding: 30px;
+        margin-top: -40px;
+    }
+
+    .popular-all-contant,
+    .chooes-img-one,
+    .chooes-img-two,
+    .chooes-img-three,
+    .why-two-content,
+    .simple-container,
+    .newsletter-container {
+        display: block;
+    }
+
+    .popular-container {
+        margin-top: -50px;
+    }
+
+    .choose-img-box img {
+        width: auto;
+        height: auto;
+        max-width: 580px;
+    }
+
+    .choose-img-box>img {
+        margin-bottom: 0px;
+    }
+
+    .choose-malsives-img-box {
+        margin-top: -90px;
+    }
+
+    #media-width-height {
+        width: 580px;
+        height: 350px;
+    }
+
+    #srilanka {
+        left: 180px;
+        bottom: 195px;
+    }
+
+    #north-america {
+        left: 150px;
+        bottom: 195px;
+    }
+
+    #kashmir {
+        left: 180px;
+        bottom: 195px;
+    }
+
+    #bangladesh {
+        left: 160px;
+        bottom: 200px;
+    }
+
+    #bandarban {
+        left: 180px;
+        bottom: 200px;
+    }
+
+    .why-description {
+        padding: 0rem;
+    }
+
+    .img-box-border {
+        border: 2px solid tomato;
+        width: 25rem;
+        height: 20rem;
+        border-radius: 15px;
+        padding: 1rem;
+        background-color: rgba(249, 245, 245, 0.817);
+        border: none;
+    }
+
+    .img-icon-content {
+        display: flex;
+    }
+
+    .deals-img-main-box1 {
+        background-image: url(Group\ 39.png);
+        background-repeat: no-repeat;
+        padding: 13% 65% 5% 10%;
+        border-radius: 10px;
+        width: 8rem;
+
+    }
+
+    .deals-img-main-box2 {
+        background-image: url(Group\ 40.png);
+        background-repeat: no-repeat;
+        padding: 10% 0% 5% 12%;
+        margin-top: 2rem;
+    }
+
+    #img-icon-box {
+        width: 3%;
+        height: 3%;
+        padding-top: 1rem;
+    }
+
+    .simple-container {
+        margin-right: 1rem;
+    }
+
+    .simple-content {
+        padding-right: 1px;
+        margin-top: 4rem;
+    }
+
+    .simple-vedio {
+        margin-top: 5px;
+        padding-left: 1px;
+    }
+
+    .btn-see {
+        display: none;
+    }
+
+    .newsletter-content {
+        margin-bottom: 30px;
+        width: 33rem;
+        height: 25rem;
+    }
+
+    .footer-border {
+        width: 42rem;
+        height: 30rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .border {
+        text-align: center;
+        border: none;
+    }
+
+    .footer-all-icon {
+        padding-left: 15rem;
+    }
 
 }
