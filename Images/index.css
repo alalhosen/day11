@@ -123,7 +123,8 @@ button:hover {
 .btn-book,
 .btn-see,
 .simple-btn-see,
-.Subscribe-btn {
+.Subscribe-btn,
+.famous-btn-click {
     color: white;
     background-color: rgb(255, 84, 0);
 }
@@ -311,6 +312,44 @@ button:hover {
 
 .why-two-content {
     display: flex;
+}
+
+/* Famous Travel Section style */
+
+.famous-container{
+    display: flex;
+    margin-top: 4rem;
+}
+.famous-content{
+    border: 2px double lightgreen;
+    border-radius: 1rem;
+    width: 32rem;
+    height: 26rem;
+    padding: 20px;
+    padding-right: 30px;
+}
+.famous-tittle{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.famous-travel{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    font-style: italic;
+    color:rgb(239, 197, 146);
+}
+.famous-btn-click{
+    width: 7rem;
+    height: 2rem;
+    border: none;
+    margin-top: 10px;
+   
+}
+.famous-img{
+    width: 32rem;
+    height: 28rem;
+    padding-left: 1rem;
+ border-radius: 0px 15px 20px 75px;
 }
 
 /* deals & discount section style */
@@ -612,7 +651,8 @@ button:hover {
     .chooes-img-three,
     .why-two-content,
     .simple-container,
-    .newsletter-container {
+    .newsletter-container,
+    .famous-container {
         display: block;
     }
 
@@ -703,7 +743,10 @@ button:hover {
         height: 3%;
         padding-top: 1rem;
     }
-
+.famous-img{
+    margin-top: 1rem;
+}
+    
     .simple-container {
         margin-right: 1rem;
     }
